@@ -1,0 +1,184 @@
+Useful questions and answers for beginners
+
+# What is DRM?
+DRM stands for “Digital Rights Management.” It refers to a set of technologies, techniques, and policies used to protect and manage the rights and usage of digital content. DRM systems are designed to prevent unauthorized access, copying, distribution, and modification of digital media such as music, movies, e-books, software, and other types of intellectual property.
+
+DRM technologies typically involve encryption, licensing, and access control mechanisms. They aim to enforce the terms and conditions set by content creators, publishers, or copyright holders, ensuring that the content is used in accordance with their permissions and restrictions. DRM systems often require authentication or authorization to access the protected content and may employ various techniques to prevent tampering or bypassing of the protection mechanisms.
+
+While DRM is intended to protect intellectual property and combat piracy, it can also introduce certain limitations or restrictions on how consumers can use the content they have legally acquired. The implementation and impact of DRM can vary depending on the specific system, platform, or service in use.
+
+# What is Widevine?
+Widevine is a digital rights management (DRM) system developed by Google. It is designed to protect and securely deliver digital content, such as videos and audio, over the internet. Widevine is widely used by streaming services to ensure the protection of copyrighted material and prevent unauthorized access or piracy.
+
+Widevine utilizes various encryption techniques to secure the content during transmission and storage. It supports adaptive streaming, allowing the streaming quality to adapt based on the viewer’s network conditions and device capabilities. Widevine is compatible with a wide range of devices and platforms, including desktop computers, mobile devices, smart TVs, and streaming media players.
+
+Streaming services and content providers integrate the Widevine DRM into their platforms and players to enforce content protection policies and ensure that the content is only accessed by authorized users. Widevine operates seamlessly in the background, providing a transparent experience for users while maintaining the security and integrity of the digital content being streamed.
+
+What is PlayReady?
+PlayReady is a digital rights management (DRM) technology developed by Microsoft. It is designed to protect and control the distribution and playback of digital content, such as videos, music, and e-books. PlayReady is widely used in various platforms, including streaming services, digital media stores, and devices.
+
+PlayReady employs encryption and licensing mechanisms to secure the content and prevent unauthorized access, copying, or redistribution. Content providers can set specific usage rules and restrictions, such as limiting the number of devices that can access the content or imposing expiration dates on licenses.
+
+PlayReady supports a range of devices and platforms, including Windows-based computers, mobile devices, gaming consoles, and set-top boxes. It enables seamless playback across different devices and provides a consistent experience for users across multiple platforms.
+
+Content providers integrate PlayReady into their services and players to ensure that the content is only accessed by authorized users and to enforce the licensing terms and restrictions defined by the content owner or distributor. PlayReady plays a crucial role in enabling secure and controlled distribution of digital content while balancing the rights and interests of content creators and consumers.
+
+What mean L on Widevine ?
+L1, L2, and L3 are security levels associated with Widevine, Google’s digital rights management (DRM) system. These levels determine the hardware and software security requirements on playback devices to ensure content protection.
+
+L1 (Level 1) is the highest security level in Widevine. It requires a secure hardware environment, such as a Trusted Execution Environment (TEE), on the playback device. L1-certified devices have dedicated security hardware that provides robust content protection. This level of security is typically found on premium devices like flagship smartphones or certain streaming media players. L1-certified devices can securely decode and display high-definition (HD) and Ultra HD (UHD) content.
+
+L2 (Level 2) is an intermediate security level in Widevine. It represents a level between L1 and L3 in terms of security. L2 certification requires a combination of hardware and software security measures, although the specific details of L2 are less widely known. Devices with L2 certification offer a higher level of security compared to L3 but may not provide the same level of protection as L1-certified devices.
+
+L3 (Level 3) is the lowest security level in Widevine. It relies primarily on software-based content protection without requiring dedicated hardware security features. L3-certified devices do not offer the same level of content protection as L1 or L2 devices and are typically found on less secure or lower-end devices. L3-certified devices can handle standard-definition (SD) content and lower-resolution streams but may not support HD or UHD content playback.
+
+The security level required by content providers depends on their licensing agreements and the desired level of content protection. Higher-value or more sensitive content may require playback on L1-certified devices to ensure robust security, while lower-resolution or less sensitive content may be accessible on devices with L2 or L3 certification.
+
+In summary, Widevine supports multiple security levels, including L1, L2, and L3. L1 provides the highest level of security, L3 offers the lowest, and L2 sits in between. The actual security level available on a specific device depends on its hardware capabilities and certification by the manufacturer. Content providers determine the required security level based on their licensing agreements and the desired level of content protection.
+
+What mean S on PlayReady ?
+S2000, S3000 are security levels associated with PlayReady, Microsoft’s digital rights management (DRM) technology. These security levels indicate the strength of content protection and the required level of security features on playback devices.
+
+S2000 (Security Level 2000) is the baseline security level in PlayReady. It provides basic content protection using software-based security measures. Devices with S2000 certification meet the minimum security requirements for PlayReady and can handle protected content with standard-level security.
+
+S3000 (Security Level 3000) represents a higher security level in PlayReady. It requires devices to have enhanced hardware-based security features in addition to software-based protection. S3000-certified devices offer stronger content protection capabilities and can handle content with higher-level security requirements.
+
+S4000 (Security Level 4000) is the highest security level in PlayReady. It mandates robust hardware security measures on playback devices, including secure chipsets and dedicated security hardware. S4000-certified devices provide the highest level of content protection and are designed for handling premium, high-value content that demands top-level security.
+
+The security level required by content providers depends on their licensing agreements and the sensitivity of the content being protected. Higher-value or more sensitive content may require playback on devices with higher security levels like S3000 or S4000, while lower-security content may be accessible on devices with S2000 certification.
+
+It’s worth noting that the specific capabilities and requirements of each security level may vary, and the certification process ensures compliance with the respective security level’s standards and guidelines.
+
+What other DRM System existing ?
+While PlayReady and Widevine are two prominent DRM systems, there are several other DRM systems available in the market. Here are a few additional DRM systems:
+
+FairPlay: FairPlay is Apple’s DRM technology designed for protecting digital content in the Apple ecosystem, including iTunes Store content, Apple Music, and other media services. It is primarily used for securing content on Apple devices, such as iPhones, iPads, and Apple TVs.
+
+Adobe Primetime: Adobe Primetime is a DRM and content protection platform developed by Adobe. It provides digital rights management capabilities for protecting and delivering video content across various devices and platforms.
+
+Marlin: Marlin DRM is an open standard DRM system developed by the Marlin Developer Community. It is designed to offer interoperability and content protection for digital media across multiple devices and platforms.
+
+ClearKey: ClearKey is an open standard DRM system developed by the World Wide Web Consortium (W3C). It is a lightweight DRM solution based on common cryptographic standards and is primarily used for web-based content protection.
+
+These are just a few examples, and there are other DRM systems available as well. The choice of DRM system often depends on factors such as platform compatibility, licensing agreements, security requirements, and the target devices or platforms for content distribution.
+
+What is PSSH?
+PSSH (Protection System Specific Header) is a data structure used in DRM (Digital Rights Management) systems to encapsulate and convey encryption and key-related information. It is commonly associated with MPEG-DASH (Dynamic Adaptive Streaming over HTTP) and Common Encryption (CENC) standards.
+
+PSSH is typically included as part of the initialization data or metadata in media files protected by DRM. It contains system-specific information required for decrypting and accessing the encrypted content. This includes details such as the encryption method used, key identifiers, and other necessary parameters specific to the DRM system employed.
+
+PSSH is primarily used for interoperability between different DRM systems. By encapsulating the necessary DRM-related information within the PSSH box, media players and streaming platforms can handle content protected by various DRM technologies, ensuring compatibility across different devices and services.
+
+Essentially, PSSH serves as a standardized container for DRM-specific information within media files, enabling seamless playback and decryption of protected content across different platforms and devices supporting various DRM systems.
+
+8. What is isml?
+
+ISML (Internet Streaming Media Language) is an XML-based language used for describing and defining multimedia streaming presentations and their characteristics. It is specifically designed for adaptive streaming over the internet, where media content is divided into small segments and delivered in different bitrates and resolutions.
+
+ISML provides a standardized format for describing various elements of a streaming presentation, including video, audio, subtitles, captions, and other related metadata. It defines the structure and properties of media streams, such as segment durations, segment URLs, bitrates, codecs, and other relevant information.
+
+By using ISML, content providers and streaming platforms can create adaptive streaming services that dynamically adjust the quality of media playback based on the viewer’s network conditions and device capabilities. ISML allows for seamless switching between different bitrates and resolutions to provide an optimal streaming experience.
+
+ISML is commonly used in conjunction with streaming protocols such as MPEG-DASH (Dynamic Adaptive Streaming over HTTP) and Smooth Streaming. It helps ensure compatibility and consistency across different streaming platforms and devices by providing a standardized way to describe and deliver streaming media presentations over the internet.
+
+What is mpd ?
+MPD stands for “Media Presentation Description.” It is a file format and part of the MPEG-DASH (Dynamic Adaptive Streaming over HTTP) standard. An MPD file is an XML-based manifest or index file that describes the structure and properties of a multimedia presentation for adaptive streaming.
+
+In the context of adaptive streaming, a media presentation is typically divided into small segments of audio and video content. The MPD file provides information about these segments, including their URLs, durations, bitrates, codecs, and other metadata. It also defines the available quality levels, various representations of the content, and the rules for switching between different representations based on network conditions and device capabilities.
+
+MPD files are used by streaming services and players to dynamically adapt the playback quality of media content in real-time. Clients, such as streaming devices or software players, fetch the MPD file to retrieve the necessary information for requesting and playing the appropriate segments based on the current network conditions.
+
+MPEG-DASH and MPD allow for efficient and flexible adaptive streaming over HTTP, enabling seamless playback of multimedia content across a wide range of devices and network conditions.
+
+What is KID?
+In the context of DRM (Digital Rights Management), “KID” stands for “Key ID” or “Key Identifier.” A KID is a unique identifier associated with a specific encryption key used in the DRM system.
+
+Encryption keys play a crucial role in content protection and access control. They are used to encrypt the content during storage and transmission, and decrypt it during playback on authorized devices. Each encryption key typically has a corresponding Key ID or KID, which serves as a reference or identifier for that particular key.
+
+The KID helps DRM systems manage and track the usage of encryption keys. It allows the DRM system to associate a specific key with a particular content item, user, or license. By using the KID, the DRM system can ensure that only authorized users or devices with the corresponding key are able to decrypt and access the protected content.
+
+The KID is often included in the DRM metadata, such as the license or encryption information, associated with the protected content. This allows the DRM system to match the appropriate key with the content and enforce the necessary access control and usage policies defined by the content owner or distributor.
+
+What is KEY?
+In the context of DRM (Digital Rights Management), a “key” refers to an encryption key. Encryption keys are a fundamental component of DRM systems and are used to encrypt and decrypt digital content to protect it from unauthorized access and piracy.
+
+An encryption key is a string of characters or bits that serves as the basis for the cryptographic algorithms employed in DRM. When content is encrypted, it is transformed into a scrambled form using an encryption algorithm and an encryption key. This process makes the content unreadable and unusable without the corresponding decryption key.
+
+The encryption key is kept secure and is typically known only to authorized parties, such as the content owner, DRM system, or authorized devices. The key is used to decrypt the encrypted content and restore it to its original, usable form for authorized playback or consumption.
+
+Keys can vary in type and purpose within DRM systems. For example, a content key may be used to encrypt the content itself, while a session key may be used for secure communication between a client device and a DRM server. DRM systems also employ key management techniques to securely generate, distribute, and manage keys throughout the content lifecycle.
+
+In summary, a key in DRM is an encryption key used to protect digital content by encrypting and decrypting it, ensuring that only authorized parties can access and use the content.
+
+Why its used kid:key?
+The combination of “KID” (Key ID) and “key” in the context of DRM (Digital Rights Management) refers to the association between a unique identifier (KID) and an encryption key.
+
+The KID (Key ID) is a unique identifier that is associated with a specific encryption key used in the DRM system. It serves as a reference or identifier for that particular key. The KID helps in managing and tracking the usage of encryption keys within the DRM system.
+
+The encryption key, on the other hand, is the actual cryptographic key used for encrypting and decrypting the digital content. It is used to transform the content into a scrambled form during encryption and to restore it to its original, usable form during decryption.
+
+The KID:key combination is used to establish the connection between the unique identifier (KID) and the corresponding encryption key. It allows the DRM system to match the appropriate key with the content, user, or license, ensuring that only authorized devices or users with the corresponding key (identified by the KID) can decrypt and access the protected content.
+
+Together, the KID and key form a crucial component of DRM systems, enabling secure content distribution and access control by associating specific keys with protected content and enforcing the necessary security measures.
+
+Why DRM Systems have a license server?
+
+DRM (Digital Rights Management) systems utilize license servers to enforce and manage the rights and permissions associated with digital content. License servers play a crucial role in controlling how content is accessed, distributed, and consumed by users.
+
+Here are a few reasons why DRM systems have license servers:
+
+Authentication and Authorization: License servers authenticate users and devices to ensure that they have the necessary rights and permissions to access the protected content. They verify user credentials, device information, and entitlements before granting access to the content. This helps prevent unauthorized access and protects the rights of content owners.
+
+Key Exchange and Encryption: License servers facilitate the secure exchange of encryption keys between the server and the client device. The license server encrypts the content keys using the client’s specific device keys or other security mechanisms. This ensures that only authorized devices can decrypt and access the content.
+
+Rights Management: License servers manage the rights and permissions associated with digital content. They define the rules and restrictions for content usage, such as the number of allowed devices, expiration dates, rental periods, and other usage policies. The license server issues licenses to clients based on these rules, specifying the granted permissions and limitations.
+
+Dynamic Control and Updates: License servers enable dynamic control over content access. They can revoke or modify licenses in real-time, allowing content owners to respond to changing requirements or revoke access in case of unauthorized use. License servers also enable updates to license terms, such as extending viewing windows or offering additional content options.
+
+Usage Tracking and Reporting: License servers track and collect data on content consumption, providing insights to content owners and distributors. They can generate usage reports, including information on playback duration, locations, and devices, helping content providers make informed decisions and analyze user behavior.
+
+Overall, license servers are a critical component of DRM systems, enabling secure authentication, key management, rights enforcement, and usage tracking. They help protect the rights of content owners while enabling authorized access to digital content in accordance with the specified permissions and restrictions.
+
+What is CDM?
+CDM stands for “Content Decryption Module.” It is a component or software module that operates within a web browser or media player to enable the secure decryption and playback of DRM-protected content.
+
+CDMs are a key part of DRM systems, working in conjunction with the DRM technologies and protocols. They provide the necessary functionality to decrypt encrypted content using the appropriate decryption keys, ensuring that the content can be played back only on authorized devices or platforms.
+
+CDMs typically interface with the underlying hardware and operating system to securely handle the decryption process. They facilitate the interaction between the DRM system, the encrypted content, and the media playback software, ensuring that the content is decrypted and presented to the user in a secure manner.
+
+Different DRM systems may have their own specific CDM implementations. For example, Google Chrome uses the Widevine CDM, while Microsoft Edge employs the PlayReady CDM. These CDMs handle the decryption and playback of content protected by the respective DRM systems within the browser environment.
+
+CDMs are designed to provide a secure environment for decrypting and rendering DRM-protected content while enforcing the usage rules and restrictions defined by the DRM system. They help ensure that content remains protected and only accessible to authorized users and devices.
+
+Do all devices support playready ?
+Not all devices support PlayReady. The support for PlayReady depends on the specific device and its manufacturer. In general, devices that receive PlayReady certification ensure that they meet the security and functionality requirements set by Microsoft.
+
+PlayReady support is widespread on devices such as Windows computers, Xbox game consoles, smartphones, and televisions that use Microsoft-developed operating systems. However, not all devices on these platforms automatically support PlayReady, as it depends on the specific model and version of the device.
+
+Furthermore, there are other DRM systems like Widevine (used by Google) and FairPlay (used by Apple) that are available on certain devices depending on the operating system and their certification.
+
+Therefore, to determine if a specific device supports PlayReady, it is necessary to check the specifications and certifications provided by the manufacturer or contact the device’s technical support.
+
+What is Token?
+In the context of DRM (Digital Rights Management), a token is a piece of data that is used to authenticate and authorize access to protected content. Tokens serve as a form of credential or proof of authorization, providing a secure way to grant or deny access to specific resources.
+
+While the KID (Key ID) and key pair is used to identify and decrypt the content, tokens are often used in addition to provide further security and control. Tokens can contain various pieces of information, such as user identity, access permissions, expiration dates, or other relevant metadata.
+
+Tokens are typically issued by a server, such as a token service or authentication server, as part of the DRM system. When a client requests access to protected content, it presents the token to the server as proof of authorization. The server validates the token, checks the access permissions, and determines whether to grant or deny access to the requested content.
+
+The use of tokens allows for more granular access control and enables dynamic management of content rights. Tokens can be revoked or updated, allowing for real-time adjustments to access permissions. They provide an additional layer of security beyond the encryption keys, ensuring that only authorized users with valid tokens can access the protected content.
+
+In the case of Widevine platforms, the combination of the KID (Key ID), key, and token allows for a comprehensive security framework. The KID and key pair is used for content decryption, while the token is employed for authentication and authorization, controlling access to the content based on user-specific permissions and conditions.
+
+What tokens its used on DRM?
+License Token: This is the most common type of token used in DRM systems. It contains encrypted metadata, such as content keys, usage rights, restrictions, and expiration dates. It is issued by the DRM server and is specific to the content being accessed.
+
+Authentication Token: This type of token is used for user authentication within the DRM system. It verifies the identity of the user and may contain authentication-related information such as user credentials or authentication tokens from an identity provider.
+
+Device Token: A device token is used to authenticate and authorize specific devices within the DRM system. It establishes the legitimacy and trustworthiness of the device and can be used to enforce device-specific restrictions or permissions.
+
+Session Token: Session tokens are used to manage and maintain user sessions within the DRM system. They track session state, including information such as user identity, session duration, and activities.
+
+Revocation Token: Revocation tokens are used to revoke or invalidate previously issued tokens. They provide a mechanism for the DRM system to block access to content or revoke specific permissions granted by previous tokens.
+
+These are some examples of token models used in DRM systems, but it’s important to note that the specific token models can vary depending on the DRM technology and the implementation choices made by the DRM system provider.
